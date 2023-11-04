@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Page</title>
+    <link rel="stylesheet" href="main2.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="showAll()"> 
+    <div class="container">
+      <section>
+        <nav>
+            <div class="logo">
+                <h1><a href="main.html"><span>MOVIE</span></a></h1>
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Upcoming</a></li>
+                    <li><a href="#">TV Show</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+        <form >
+          <fieldset>
+              <legend class="mo">Shopping cart</legend>
+              <label class="mo">Item: </label>
+              <label class="mo">Quantity: </label>
+
+              <!-- <input type="button" value="Delete"> -->
+          </fieldset>
+          <div id="items_table" style="">
+              <h2 class="mo">Shopping list</h2>
+              <table id="list" border="1" class="mo"></table>
+              <label><input type="button" value="clear" onclick="clearAll()"></label>
+          </div>
+      </form>
+      </section>
+        <!-- <div class="top-menu">
+            <div>
+                <img src="images/logo.png" alt="lennin">
+            </div>
+            <div class="page">
+                <a href="#">Sản phẩm</a>
+                <a href="#">Sale</a>
+                <a href="#">Thư viện</a>
+                <a href="#">Giới thiệu</a>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="login/login.html">
+                    <i class="fa-solid fa-user" id="users"></i>
+                </a>
+                <div class="lines"></div>
+                <i class="fa-solid fa-globe"></i>
+            </div>  
+        </div>   -->
+
+
+    <script src="main2.js"></script>
+</body>
+</html>
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Store</title>
+  <link rel="stylesheet" href="main2.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="main2.html">
+      <h2>Clothing Store</h2>
+    </a>
+
+    <a href="cart.html">
+      <div class="cart">
+        <i class="bi bi-cart2"></i>
+        <div id="cartAmount" class="cartAmount">0</div>
+      </div>
+    </a>
+
+  </div>
+
+  <div id="label" class="text-center"></div>
+
+  <div class="shopping-cart" id="shopping-cart"></div>
+</body>
+<script src="data.js"></script>
+<script src="cart.js"></script>
+
+</html> -->
